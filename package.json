@@ -1,0 +1,21 @@
+{
+  "name": "express-react-trpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "concurrently \"wsrun --parallel start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vijayaraghavan Sundararaman <vijaygenius123@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "wsrun": "^5.2.0"
+  }
+}
